@@ -1,0 +1,37 @@
+{
+    "google": {
+        "class": {
+            "link": {
+                "element": "l8sGWb"
+            },
+            "card": {
+                "head": "XVw6Ad",
+                "details": "wlgrwd"
+            },
+            "item": {
+                "head": "hJ7x8b"
+            },
+            "detail": {
+                "open": "wlgrwd",
+                "dialog": "llhEMd",
+                "exit": "yHy1rc",
+                "section": "ETHINc",
+                "sectionTitle": {
+                    "title": "QTGV3c"
+                },
+                "sectionDetail": {
+                    "item": "Q57L7b",
+                    "itemDiff": "google-material-icons",
+                    "itemDesc": "jiqmSb",
+                    "location": "u9k7Fe",
+                    "voice": "yuCtZb"
+                }
+            }
+        },
+        "jsaction": {
+            "card": {
+                "details": "click:N80UCe"
+            }
+        }
+    }
+}

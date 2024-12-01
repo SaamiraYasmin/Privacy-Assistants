@@ -1,0 +1,36 @@
+{
+  "name": "scraperlib",
+  "version": "1.0.0",
+  "description": "Library to scrap data from myactivity.google.com",
+  "author": "Shashvat Gupta",
+  "license": "MIT",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "files": [
+    "/build"
+  ],
+  "scripts": {
+    "build": "webpack --config webpack/webpack.config.js"
+  },
+  "dependencies": {
+    "@babel/core": "^7.18.5",
+    "@babel/preset-env": "^7.18.2",
+    "@babel/preset-react": "^7.17.12",
+    "@babel/runtime": "^7.18.3",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@material-ui/pickers": "^3.3.11",
+    "@mui/icons-material": "^5.5.1",
+    "@mui/material": "^5.14.8",
+    "@mui/x-date-pickers": "^6.13.0",
+    "@types/chrome": "^0.0.186",
+    "@types/meyda": "^4.3.2",
+    "class-transformer": "^0.5.1",
+    "cross-env": "^7.0.3",
+    "meyda": "^5.4.0",
+    "moment": "^2.29.3",
+    "typescript": "^4.6.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}

@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es2015",
+        "declaration": true,
+        "outDir": "./build",
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "jsx": "react",
+    },
+    "include": [
+        "src/**/*"
+    ]
+}
