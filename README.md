@@ -1,2 +1,16 @@
-# Privacy-Assistants
-Bachelor Thesis Project on "Designing and Building Smart Privacy Assistants for Improving Data Dashboards” supervised by Prof. Mainack Mondal, IIT Kharagpur during Aug 2022 - Apr 2023
+# Smart Privacy Assistant Chrome Extension
+
+## File Structure
+- scraperlib: Library to scrap google myactivity page
+- smartprivacyassistant: The extension folder
+
+## How to run
+1. Permit build.sh execute permissions
+```bash
+chmod +x build.sh
+```
+
+2. Run build.sh
+```bash
+./build.sh
+```
