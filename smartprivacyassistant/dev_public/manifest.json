@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "version": "1.0.0",
+  "name": "Smart Privacy Assistant Extension",
+  "description": "Extension to enhance quality of data dashboards",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "content_scripts": [
+    {
+        "matches": ["https://myactivity.google.com/item"],
+        "js": ["execute.js"]
+    }
+  ],
+  "browser_action": {
+    "default_icon": "logo192.png"
+  },
+  "web_accessible_resources": [ "*.mp3" ],
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "storage"
+  ],
+  "content_security_policy": "script-src 'self' 'unsafe-eval' blob: filesystem:; object-src 'self'"
+}

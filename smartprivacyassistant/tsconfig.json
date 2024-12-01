@@ -1,0 +1,24 @@
+{
+   "compilerOptions": {
+      "strict": true,
+      "module": "commonjs",
+      "target": "es2015",
+      "esModuleInterop": true,
+      "resolveJsonModule": true,
+      "declaration": true,
+      // "emitDeclarationOnly": true,
+      "isolatedModules": true,
+      "sourceMap": true,
+      "rootDir": "dev_public/extension",
+      "outDir": "public/js",
+      // "noEmitOnError": true,
+      "typeRoots": [
+         "node_modules/@types"
+      ]
+   },
+   "exclude": [
+      "node_modules",
+      "public",
+      "../build"
+   ]
+}
